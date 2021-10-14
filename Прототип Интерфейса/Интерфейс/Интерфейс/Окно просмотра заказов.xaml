@@ -1,0 +1,52 @@
+﻿<Window x:Class="Интерфейс.Окно_просмотра_заказов"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Интерфейс"
+        mc:Ignorable="d"
+        Title="Окно_просмотра_заказов" Height="720" Width="1280" FontFamily="Global Monospace" FontSize="16">
+    <Grid>
+        <Label Content="Заказы" Margin="592,20,592,0" VerticalAlignment="Top" FontSize="20"/>
+        <Border BorderBrush="Black" BorderThickness="1" Height="556" Margin="30,68,30,0" VerticalAlignment="Top">
+            <Grid>
+                <ScrollBar Margin="1193,0,0,0"/>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="96" Margin="18,33,0,0" VerticalAlignment="Top" Width="1148">
+                    <Grid>
+                        <Label Content="Заказ №523523" HorizontalAlignment="Left" Margin="48,28,0,29" FontSize="24"/>
+                        <Button Content="Просмотреть заказ" HorizontalAlignment="Left" Margin="918,34,0,30" Width="198"/>
+                        <Label Content="Статус:" HorizontalAlignment="Left" Margin="651,36,0,0" VerticalAlignment="Top"/>
+                        <Label Content="В работе" HorizontalAlignment="Left" Margin="739,36,0,0" VerticalAlignment="Top" Foreground="#FF8F8F8F"/>
+
+                    </Grid>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="96" Margin="18,159,0,0" VerticalAlignment="Top" Width="1148">
+                    <Grid>
+                        <Label Content="Заказ №523524" HorizontalAlignment="Left" Margin="48,28,0,29" FontSize="24"/>
+                        <Button Content="Просмотреть заказ" HorizontalAlignment="Left" Margin="919,34,0,30" Width="198"/>
+                        <Label Content="Статус:" HorizontalAlignment="Left" Margin="651,36,0,0" VerticalAlignment="Top"/>
+                        <Label Content="В очереди" HorizontalAlignment="Left" Margin="739,36,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red"/>
+                    </Grid>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="96" Margin="18,288,0,0" VerticalAlignment="Top" Width="1148">
+                    <Grid>
+                        <Label Content="Заказ №523525" HorizontalAlignment="Left" Margin="48,28,0,29" FontSize="24"/>
+                        <Button Content="Просмотреть заказ" HorizontalAlignment="Left" Margin="922,28,0,36" Width="198"/>
+                        <Label Content="Статус:" HorizontalAlignment="Left" Margin="651,36,0,0" VerticalAlignment="Top"/>
+                        <Label Content="В очереди" HorizontalAlignment="Left" Margin="739,36,0,0" VerticalAlignment="Top" Foreground="Red"/>
+                    </Grid>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="96" Margin="18,422,0,0" VerticalAlignment="Top" Width="1148">
+                    <Grid>
+                        <Label Content="Заказ №523526" HorizontalAlignment="Left" Margin="48,28,0,29" FontSize="24"/>
+                        <Button Content="Просмотреть заказ" HorizontalAlignment="Left" Margin="922,34,0,30" Width="198"/>
+                        <Label Content="Статус:" HorizontalAlignment="Left" Margin="651,36,0,0" VerticalAlignment="Top"/>
+                        <Label Content="В очереди" HorizontalAlignment="Left" Margin="739,36,0,0" VerticalAlignment="Top" Foreground="Red"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="30,644,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

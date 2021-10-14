@@ -1,0 +1,26 @@
+﻿<Window x:Class="Интерфейс.Управление_сотрудниками"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Интерфейс"
+        mc:Ignorable="d"
+        Title="Управление_сотрудниками" Height="600" Width="1000" FontFamily="Global Monospace" FontSize="16">
+    <Grid>
+        <Label Content="Список сотрудников" HorizontalAlignment="Left" Margin="46,62,0,0" VerticalAlignment="Top"/>
+        <DataGrid HorizontalAlignment="Left" Height="384" Margin="46,108,0,0" VerticalAlignment="Top" Width="495">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код сотрудника"></DataGridTextColumn>
+                <DataGridTextColumn Header="Имя"></DataGridTextColumn>
+                <DataGridTextColumn Header="Фамилия"></DataGridTextColumn>
+                <DataGridTextColumn Header="Отчество"></DataGridTextColumn>
+                <DataGridTextColumn Header="Номер телефона"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Добавить нового сотрудника" HorizontalAlignment="Left" Margin="626,345,0,0" VerticalAlignment="Top" Width="294" Height="36"/>
+        <Button Content="Изменить данные о сотруднике" HorizontalAlignment="Left" Margin="626,400,0,0" VerticalAlignment="Top" Width="294" Height="36"/>
+        <Button Content="Удалить сотрудника" HorizontalAlignment="Left" Margin="626,456,0,0" VerticalAlignment="Top" Width="294" Height="36"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="46,525,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

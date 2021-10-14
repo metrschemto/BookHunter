@@ -1,0 +1,18 @@
+﻿<Window x:Class="Интерфейс.Авторизация"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Интерфейс"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800" FontFamily="Global Monospace">
+    <Grid>
+        <Label Content="Добрый день" HorizontalAlignment="Left" Margin="67,61,0,0" VerticalAlignment="Top" Height="54" Width="360" FontFamily="Global Monospace" FontSize="36"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="377,172,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="372,219,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="459,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="16"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="459,222,0,0" VerticalAlignment="Top" Width="222" Height="23" FontSize="16"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="500,277,0,0" VerticalAlignment="Top" Width="75" FontSize="16"/>
+
+    </Grid>
+</Window>

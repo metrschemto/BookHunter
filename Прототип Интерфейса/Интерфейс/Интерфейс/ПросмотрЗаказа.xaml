@@ -1,0 +1,34 @@
+﻿<Window x:Class="Интерфейс.ПросмотрЗаказа"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Интерфейс"
+        mc:Ignorable="d"
+        Title="ПросмотрЗаказа" Height="450" Width="828" FontFamily="Global Monospace" FontSize="16">
+    <Grid>
+        <Label Content="Заказ № 13413253" HorizontalAlignment="Left" Margin="55,37,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Содержимое" HorizontalAlignment="Left" Margin="63,98,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="180" Margin="63,132,0,0" VerticalAlignment="Top" Width="420">
+            <Grid>
+                <Border BorderBrush="Black" BorderThickness="1" Height="30" Margin="20,25,20,0" VerticalAlignment="Top">
+                    <Label Content="Арт.124124 Книга№1.............кол.1шт"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" Height="30" Margin="20,60,20,0" VerticalAlignment="Top">
+                    <Label Content="Арт.143214 Книга№2.............кол.2шт"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" Height="30" Margin="20,95,20,0" VerticalAlignment="Top">
+                    <Label Content="Арт.152353 Книга№3.............кол.1шт"/>
+                </Border>
+                <Label Content="Общая сумма: 1732р." HorizontalAlignment="Left" Margin="216,144,0,0" VerticalAlignment="Top"/>
+
+            </Grid>
+        </Border>
+        <Label Content="Статус:" HorizontalAlignment="Left" Margin="566,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Не завершен" HorizontalAlignment="Left" Margin="648,42,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red"/>
+        <Button Content="Редактировать содержимое " HorizontalAlignment="Left" Margin="516,132,0,0" VerticalAlignment="Top" Width="266" Height="42"/>
+        <Button Content="Завершить заказ " HorizontalAlignment="Left" Margin="516,192,0,0" VerticalAlignment="Top" Width="266" Height="42"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="43,377,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
